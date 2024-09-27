@@ -1,0 +1,106 @@
+#contact-footer {
+  display: flex;
+  justify-content: center;
+  height: 65%;
+  width: 100%;
+  background: #3F51B5;
+  position: fixed;
+  bottom: -55%;
+  box-shadow: 0px -3px 10px 5px rgba(0, 0, 0, 0.1); }
+
+.fab {
+  display: flex;
+  background: #FFEB3B;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 60px;
+  box-shadow: 0 3px 10px 1px rgba(0, 0, 0, 0.48);
+  border-radius: 50%;
+  position: absolute;
+  right: 15px;
+  top: -33px;
+  cursor: pointer; }
+  .fab i {
+    color: #000000;
+    opacity: 0.54; }
+
+.social {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%; }
+  .social a {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none; }
+
+@-webkit-keyframes bounce-up {
+  0% {
+    position: fixed;
+    bottom: -55%; }
+  35% {
+    bottom: 0%; }
+  100% {
+    bottom: -3%; } }
+@keyframes bounce-up {
+  0% {
+    position: fixed;
+    bottom: -55%; }
+  35% {
+    bottom: 0%; }
+  100% {
+    bottom: -3%; } }
+@-webkit-keyframes bounce-up-reverse {
+  0% {
+    position: fixed;
+    bottom: -3%; }
+  35% {
+    bottom: -58%; }
+  100% {
+    bottom: -55%; } }
+@keyframes bounce-up-reverse {
+  0% {
+    position: fixed;
+    bottom: -3%; }
+  35% {
+    bottom: -58%; }
+  100% {
+    bottom: -55%; } }
+@-webkit-keyframes darken {
+  from {
+    background: transparent; }
+  to {
+    background: rgba(0, 0, 0, 0.15); } }
+@keyframes darken {
+  from {
+    background: transparent; }
+  to {
+    background: rgba(0, 0, 0, 0.15); } }
+@-webkit-keyframes darken-reverse {
+  to {
+    background: transparent; }
+  from {
+    background: rgba(0, 0, 0, 0.15); } }
+@keyframes darken-reverse {
+  to {
+    background: transparent; }
+  from {
+    background: rgba(0, 0, 0, 0.15); } }
+
+.dribbble {
+  color: #ea4c89
+}
+
+.youtube {
+  color: #bb0000
+}
+
+.instagram {
+  color: #3a8bbb
+}
